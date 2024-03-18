@@ -1,0 +1,38 @@
+.ul_text {
+  display: flex;
+  gap: 33px;
+  list-style: none;
+  font-size: 20px;
+  padding: 27px 60px 140px 656px;
+  width: 100%;
+}
+
+.li_text {
+  color: #fff;
+}
+
+.a_text {
+  text-decoration: none;
+  color: black;
+}
+
+.menu_btn {
+  display: none;
+  margin-top: 20px;
+  border: none;
+}
+
+@media screen and (max-width: 952px) {
+  .ul_text {
+    display: none;
+  }
+  .menu_btn {
+    display: flex;
+    align-items: end;
+  }
+  .btn_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+}/*# sourceMappingURL=header.css.map */
